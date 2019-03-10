@@ -119,6 +119,7 @@ def plot_images(epoch, generator, examples=100, dim=(10,10), figsize=(10,10)):
 
     plt.tight_layout()
     plt.savefig('generated_image_{}.png'.format(epoch))
+    plt.close()
 
 
 
